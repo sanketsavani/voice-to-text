@@ -57,13 +57,31 @@ A beautiful, real-time speech recognition web application powered by Vosk AI and
 
 4. **Run the container**
    ```bash
-   docker run -p 5000:5000 vosk-voice-to-text
+   docker run --name Voice-To-Text -p 5000:5000 vosk-voice-to-text
+   ```
+   
+   Or run in detached mode (background):
+   ```bash
+   docker run --name Voice-To-Text -d -p 5000:5000 vosk-voice-to-text
    ```
 
 5. **Open in your browser**
    ```
    http://localhost:5000
    ```
+
+### Using Docker Compose (Recommended)
+
+Alternatively, use Docker Compose for easier management:
+
+```bash
+docker-compose up -d
+```
+
+To stop:
+```bash
+docker-compose down
+```
 
 ## 🛠️ Alternative: Running Without Docker
 
@@ -191,8 +209,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
+Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
 
-Project Link: [https://github.com/yourusername/vosk-voice-to-text](https://github.com/sanketsavani/vosk-voice-to-text)
+Project Link: [https://github.com/yourusername/vosk-voice-to-text](https://github.com/yourusername/vosk-voice-to-text)
 
 ---
 
