@@ -28,7 +28,7 @@ A beautiful, real-time speech recognition web application powered by Vosk AI and
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/vosk-voice-to-text.git
+   git clone https://github.com/sanketsavani/vosk-voice-to-text.git
    cd vosk-voice-to-text
    ```
 
@@ -211,7 +211,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
 
-Project Link: [https://github.com/yourusername/vosk-voice-to-text](https://github.com/yourusername/vosk-voice-to-text)
+Project Link: [https://github.com/sanketsavani/vosk-voice-to-text](https://github.com/sanketsavani/vosk-voice-to-text)
 
 ---
 
